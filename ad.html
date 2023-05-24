@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ad Günün mübarək shrek!!!</title>
+  <style>
+    body {
+      background-color: rgb(255, 0, 251);
+    }
+    .greeting {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .message {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .video {
+      margin: 0 10px;
+    }
+  </style>
+  <script>
+    function playMusic() {
+      var audio = document.getElementById("muzik");
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="greeting">
+    <h1>EŞŞƏYYYY</h1>
+    <p>Ad Günün mübarək, shrek!</p>
+  </div>
+
+  <div class="content">
+    <div class="message">
+      <p>Dostluğumuzu təbrik edirəm və sənə ən yaxşı arzularımı bildirirəm. Birgə keçirdiyimiz hər an mənim üçün çox dəyərlidir. Umid edirəm ki, bu xüsusi günündə xoşbəxt olasın və bütün arzuların həyata keçirilsin. Hər bir yeni ilə!</p>
+    </div>
+
+    <div class="message">
+      <div class="image">
+        <img src="C:\Users\Admin\Downloads\arkadasinizin_fotografi.jpg.jpeg" alt="Arkadaşınızın Fotoğrafı">
+      </div>
+    </div>
+
+    <div class="video">
+      <video src="C:\Users\Admin\Downloads\video.mp4.mp4" controls autoplay></video>
+    </div>
+
+    <div class="music">
+      <audio id="muzik" src="C:\Users\Admin\Downloads\muzik (mp3cut.net).mp3"></audio>
+      <button onclick="playMusic()">Shrek üçün Başlat/Dur</button>
+    </div>
+  </div>
+</body>
+</html>
